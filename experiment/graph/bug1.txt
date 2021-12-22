@@ -1,0 +1,105 @@
+guo@HP:~/Documents/git-code/core-maintenance/core-maint$ ./debug -p /home/guo/Documents/TestG/facebook-2.txt -R 12 -m ours -T 0
+********************************************************************************
+# of vertices: 4040
+# of (all) edges: 88234
+ratio: 0.000000
+# of edges to insert: 12
+path of the input file: /home/guo/Documents/TestG/facebook-2.txt
+method: ours
+********************************************************************************
+**************ComputeCore************
+
+initialization costs 6.254920 ms
+**************insert (1278, 1424)************ !!! wrong update.
+**************insert (3570, 3910)************
+V* 3910: core 14 to 15 
+**************insert (63, 323)************
+**************insert (1049, 1186)************
+V* 1049: core 65 to 66 
+**************insert (2832, 2902)************
+V* 2832: core 14 to 15 
+V* 3051: core 14 to 15 
+V* 3313: core 14 to 15 
+V* 2668: core 14 to 15 
+V* 2869: core 14 to 15 
+**************insert (3887, 3972)************
+V* 3887: core 20 to 21 
+**************insert (1921, 2184)************
+**************insert (2713, 3199)************
+**************insert (151, 190)************
+V* 151: core 6 to 7 
+V* 190: core 6 to 7 
+V* 218: core 6 to 7 
+V* 65: core 6 to 7 
+V* 101: core 6 to 7 
+**************insert (539, 1871)************
+V* 1871: core 22 to 23 
+**************insert (1939, 2291)************
+**************insert (1061, 1427)************
+core insert costs 27.885940 ms
+ERROR: check: insert
+**************ComputeCore************
+
+wrong! *** 897: core is 37 but 38
+wrong! *** 903: core is 37 but 38
+wrong! *** 958: core is 37 but 38
+wrong! *** 976: core is 37 but 38
+wrong! *** 982: core is 37 but 38
+wrong! *** 1020: core is 37 but 38
+wrong! *** 1022: core is 37 but 38
+wrong! *** 1037: core is 37 but 38
+wrong! *** 1061: core is 37 but 38
+wrong! *** 1068: core is 37 but 38
+wrong! *** 1083: core is 37 but 38
+wrong! *** 1101: core is 37 but 38
+wrong! *** 1105: core is 37 but 38
+wrong! *** 1121: core is 37 but 38
+wrong! *** 1130: core is 37 but 38
+wrong! *** 1149: core is 37 but 38
+wrong! *** 1159: core is 37 but 38
+wrong! *** 1193: core is 37 but 38
+wrong! *** 1205: core is 37 but 38
+wrong! *** 1228: core is 37 but 38
+wrong! *** 1232: core is 37 but 38
+wrong! *** 1236: core is 37 but 38
+wrong! *** 1258: core is 37 but 38
+wrong! *** 1278: core is 37 but 38
+wrong! *** 1280: core is 37 but 38
+wrong! *** 1285: core is 37 but 38
+wrong! *** 1293: core is 37 but 38
+wrong! *** 1299: core is 37 but 38
+wrong! *** 1323: core is 37 but 38
+wrong! *** 1346: core is 37 but 38
+wrong! *** 1348: core is 37 but 38
+wrong! *** 1380: core is 37 but 38
+wrong! *** 1405: core is 37 but 38
+wrong! *** 1414: core is 37 but 38
+wrong! *** 1424: core is 37 but 38
+wrong! *** 1427: core is 37 but 38
+wrong! *** 1433: core is 37 but 38
+wrong! *** 1449: core is 37 but 38
+wrong! *** 1460: core is 37 but 38
+wrong! *** 1463: core is 37 but 38
+wrong! *** 1476: core is 37 but 38
+wrong! *** 1480: core is 37 but 38
+wrong! *** 1574: core is 37 but 38
+wrong! *** 1577: core is 37 but 38
+wrong! *** 1584: core is 37 but 38
+wrong! *** 1588: core is 37 but 38
+wrong! *** 1592: core is 37 but 38
+wrong! *** 1597: core is 37 but 38
+wrong! *** 1612: core is 37 but 38
+wrong! *** 1629: core is 37 but 38
+wrong! *** 1637: core is 37 but 38
+wrong! *** 1656: core is 37 but 38
+wrong! *** 1681: core is 37 but 38
+wrong! *** 1692: core is 37 but 38
+wrong! *** 1716: core is 37 but 38
+wrong! *** 1717: core is 37 but 38
+wrong! *** 1842: core is 37 but 38
+wrong! *** 1858: core is 37 but 38
+wrong! *** 1860: core is 37 but 38
+wrong! *** 1863: core is 37 but 38
+wrong! *** 1900: core is 37 but 38
+ERROR: check passed
+

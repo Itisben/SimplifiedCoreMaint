@@ -1,0 +1,44 @@
+./core -p /home/guo/Documents/git-code/core-maintenance/experiment/g1.txt -r 0.25 -m ours -T 2
+
+./debug -p /home/guo/Documents/git-code/core-maintenance/experiment/g1.txt -R 4 -m ours -T 0
+
+./debug -p /home/guo/Documents/git-code/core-maintenance/experiment/g1.txt -I 4 -m 3 -T 0
+
+//for normal graph 
+./core -p /home/guo/Documents/TestG/pokec.txt -r 0.25 -m 2 -T 0
+
+
+./core -p /home/guo/Documents/TestG/pokec.txt -R 100000 -m 2 -T 0
+
+
+./debug -p /home/guo/Documents/TestG/pokec.txt -R 10 -m ours -T 2
+
+
+./core -p /home/guo/Documents/TestG/facebook.txt -I 1000 -m ours -T 2
+./core -p /home/guo/Documents/TestG/facebook.txt -R 10000 -m ours -T 2
+
+
+
+./core -p /home/guo/Documents/TestG/facebook-shuffle.txt -R 10000 -m 3 -T 2
+
+./debug -p /home/guo/Documents/TestG/pokec-shuffle.txt -R 100 -m 3 -T 2
+
+
+
+-p /home/guo/Documents/TestG/facebook-shuffle.txt -R 10000 -m 3 -T 2
+
+./debug -p 
+
+
+
+./debug -p /home/guo/Documents/git-code/core-maintenance/experiment/g1.txt -I 2 -m 3 -T 2
+
+./debug -p /home/guo/Documents/git-code/core-maintenance/experiment/g3.txt -I 2 -m 3 -T 0
+
+./debug -p /home/guo/Documents/TestG/facebook-shuffle.txt -I 2 -m 3 -T 2
+
+
+./core -p /home/guo/Documents/TestG/facebook-bug3.txt -I 10000 -m 3 -T 0 
+
+
+./core -p /home/guo/Documents/git-code/core-maintenance/experiment/g3.txt -I 4 -m 3 -T 0

@@ -1,0 +1,15 @@
+guo@HP:~/Documents/git-code/core-maintenance/core-maint$ ./core -p /home/guo/Documents/TestG/facebook-shuffle.txt -I 10000 -m 3 -T 0
+********************************************************************************
+# of vertices: 4040
+# of (all) edges: 88234
+ratio: 0.000000
+# of edges to insert: 10000
+# of edges to delete: 0
+path of the input file: /home/guo/Documents/TestG/facebook-shuffle.txt
+method: 3    2 glist, 1 traversal, or 3 ours 
+********************************************************************************
+initialization costs 1.433407 ms
+ASSERT, LINE:328, FILE:ours6/k-dag.h
+INFO: o1 196605, o2 -11272020, a 1802, b 1546, num 2
+
+

@@ -1,0 +1,17 @@
+./core -p ~/Documents/TestTrim/livej.bin -I 1000 -m 3 -T 2
+
+./debug -p ~/Documents/TestTrim/livej.bin -I 1000 -m 3 -T 2
+
+./debug -p 
+
+
+./debug  -p ~/Documents/-I 1000 -m 3 -T 2
+
+./prof -p ~/TestTrim/test/livej.bin -R 100000 -m 3 -T 3
+
+gprof test_gprof gmon.out > analysis.txt
+
+
+./core -p ~/TestTrim/test/wiki-talk-en.bin -R 100000 -m 3 -T 3
+
+
