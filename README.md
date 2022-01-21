@@ -56,12 +56,14 @@ This is the c++ code for the draft paper "Simplified Algorithms for Order-Based 
 # Graph Conversion Tool
 There is a graph conversion utility to convert the adjacency list or edge list graph files into the binary format used by the current application. 
 
-* Before conversion, you can use the python script ```~/experiment/our-convert/convert-g.py``` to remove the useless headlines of the input file.
+* Before conversion, you can use the python script ```~/experiment/convert/format.py``` to remove the repeated edges.
 
-* To execute this tool, in the directory ```~/tools/```, run:
+* To execute this tool, in the directory ```~/experiment/convert```, run:
 
 ```./convert <InputName> <OutputName> [ -?=<0/1> -GMInputFormat=<string> -GMMeasureTime=<0/1> -GMNumThreads=<int> -GMOutputFormat=<string> ]```
 
 Calling ./convert with no input parameters will print the help, which describes all of the options. 
+
+
 
 
