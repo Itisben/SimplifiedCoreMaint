@@ -3,6 +3,7 @@ This is the c++ code for the draft paper "Simplified Algorithms for Order-Based 
 # The Structure of the Folder
 
 1. ```~/core-maint/``` : include the source code.
+* **core-maint.zip**: the source code for the order-based method. 
 * **maindebug.cc**: the main program 
 * **defs.h**: this file defines some useful macros
 * **core.h**: this header file defines the base class for core maintenance algorithm
@@ -16,7 +17,7 @@ This is the c++ code for the draft paper "Simplified Algorithms for Order-Based 
 * **gm_graph**: this folder is to generate a library that can support loading the CSR format of graphs. 
 * **glist**: this folder contains the code for the order-based core maintenance algorithm
 * **ours8**: this folder contains the code for our simplified order-based core maintenance algorithm
-2. ```~/experiment/```: include all the experiment scripts.
+3. ```~/experiment/```: include all the experiment scripts.
 * **benchmark.sh**: the shell script that can run the experiment and get the test result as csv files.
 * **paser-output.py**: the python script called by benchmark.sh to parse the test result.
 * **graph**: this folder contains the tested example graphs.
