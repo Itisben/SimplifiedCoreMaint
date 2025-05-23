@@ -1,4 +1,9 @@
-This is the c++ code for the draft paper "Simplified Algorithms for Order-Based Core Maintenance". The experiments test two methods, the order-based method and our simplified order-based method.
+This is the c++ code for the draft paper "Simplified Algorithms for Order-Based Core Maintenance". The link is: https://link.springer.com/article/10.1007/s11227-024-06190-x
+If you cannot download, please see my homepage: https://bin-guo.github.io/
+
+
+The experiments test two methods, the order-based method and our simplified order-based method.
+
 
 # The Structure of the Folder
 
